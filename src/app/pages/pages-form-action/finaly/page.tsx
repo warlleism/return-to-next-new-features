@@ -2,9 +2,7 @@ export default async function Finaly({ searchParams }: { searchParams: Promise<{
 
     const params = await searchParams.then((item) => item)
     console.log(params)
-
-
-
+    
     return (
         <div>
             <h1>Finaly</h1>
